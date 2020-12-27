@@ -3,7 +3,7 @@ from typing import Iterable
 import operator
 
 # read data
-with open("Day1/data.txt") as datafile:
+with open("data.txt") as datafile:
     data = [int(line.rstrip()) for line in datafile]
 
 # year to input
